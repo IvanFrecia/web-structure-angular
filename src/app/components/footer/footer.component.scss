@@ -1,0 +1,14 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+  background-color: #121212; /* Dark footer */
+  color: #373786; /* Cloud White text */
+  border-top: 1px solid #444; /* Dark border */
+}
+
+mat-form-field {
+  width: 90%;
+  margin-bottom: 1rem;
+}

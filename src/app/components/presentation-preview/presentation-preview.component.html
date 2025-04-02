@@ -1,0 +1,9 @@
+<div class="presentation-preview-container">
+  <h2 class="text-2xl font-bold mb-4">Presentation Preview</h2>
+  <div class="iframe-container mb-4">
+    <iframe [src]="presentationUrl | safeUrl" frameborder="0" class="presentation-iframe"></iframe>
+  </div>
+  <button mat-raised-button color="primary" (click)="redirect()">
+    View Full Presentation
+  </button>
+</div>

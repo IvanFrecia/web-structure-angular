@@ -1,0 +1,28 @@
+.contact-page-container {
+    background-color: #ADD8E6; /* Light Blue background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 auto; /* Center the form */
+  }
+  
+  .form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #000080; /* Navy text */
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    border: 1px solid #D3D3D3; /* Light Grey border */
+    padding: 8px; /* Smaller padding */
+    border-radius: 4px;
+  }
+  
+  .error {
+    margin-top: 4px;
+    color: red; /* Error text in red */
+  }
+  

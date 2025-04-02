@@ -1,0 +1,30 @@
+<div class="contact-page-container">
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" novalidate>
+    <mat-form-field appearance="fill">
+      <mat-label>Name</mat-label>
+      <input matInput type="text" formControlName="name" required>
+      <mat-error *If="contactForm.get('name')?.hasError('required')">Name is required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Email</mat-label>
+      <input matInput type="email" formControlName="email" required autocomplete="email">
+      <mat-error *If="contactForm.get('email')?.hasError('required')">Email is required</mat-error>
+      <mat-error *If="contactForm.get('email')?.hasError('email')">Invalid email format</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Subject</mat-label>
+      <input matInput type="text" formControlName="subject" required>
+      <mat-error *If="contactForm.get('subject')?.hasError('required')">Subject is required</mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Message</mat-label>
+      <textarea matInput formControlName="message" required></textarea>
+      <mat-error *If="contactForm.get('message')?.hasError('required')">Message is required</mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="contactForm.invalid">Submit</button>
+  </form>
+</div>

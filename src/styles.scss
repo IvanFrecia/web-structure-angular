@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom, #121212, #1e1e1e); /* Dark gradient background */
+    color: #f8f8ff; /* Cloud White text */
+    font-family: 'Roboto', sans-serif; /* Clean sans-serif font */
+    margin: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+  }
+  
+  /* Global form styles */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .mat-mdc-form-field {
+    font-size: 0.875rem; /* Smaller form field text */
+  }
+  
+  .mat-mdc-input-element {
+    padding: 0.5rem; /* Smaller padding */
+    border: 1px solid #444; /* Darker border */
+    border-radius: 0.5rem; /* Rounded corners */
+    background-color: #333; /* Dark background */
+    color: #f8f8ff; /* Cloud White text */
+  }
+  
+  .mat-mdc-form-field-subscript-wrapper {
+    font-size: 0.75rem; /* Smaller error text */
+  }
+  
+  /* Global card styles */
+  .card {
+    background-color: #222; /* Dark card background */
+    border-radius: 0.625rem; /* Rounded corners */
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5); /* Card shadow */
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  /* Global container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  

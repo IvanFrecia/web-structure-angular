@@ -1,0 +1,23 @@
+.linkedin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #030592; /* LinkedIn Blue */
+  color: #353564; /* Cloud White text */
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.625rem; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5); /* Darker shadow */
+}
+
+.linkedin-button:hover {
+  background-color: #005f8f; /* Darker blue on hover */
+  box-shadow: 0 0.25rem 0.5rem rgba(61, 13, 13, 0.5); /* Darker shadow on hover */
+}
+
+.linkedin-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.5rem; /* Add space between icon and text */
+}
